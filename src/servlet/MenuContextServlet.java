@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -80,9 +81,10 @@ public class MenuContextServlet extends HttpServlet {
 			 XMLReader parser = XMLReaderFactory.createXMLReader();
 			 UserHandler userHandler = new UserHandler();
 	         parser.setContentHandler(userHandler);
-	         ServletContext s1=config.getServletContext(); 
-	         String temp=s1.getRealPath("/WEB-INF"); 
-	         parser.parse(temp+"/Content.xml");
+	         String path = config.getServletContext().getRealPath("/WEB-INF");
+	         //String temp=s1.getRealPath("/WEB-INF");
+	         System.out.println(path);
+	         parser.parse(path+"/Content.xml");
 	         list = userHandler.getTabList();
 	         
 		} catch (SAXException | IOException e) {
