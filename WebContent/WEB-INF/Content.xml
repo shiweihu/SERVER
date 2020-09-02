@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root >
+<title item="1" >During Crisis
+<tips >Carers tip: Under the Mental Health Act an ambulance officer may take a person who appears mentally ill or mentally disordered to a mental health facility or Emergency Department. The ambulance officer(s) can ask the police for help to do this if they resist.
+</tips>
+<subcontent>
+Stay Calm and centered
+Do not take unnecessary risks
+When contacting 000 be prepared to provide the following information
+when asked.
+• Type of emergency/service - Ambulance or Police
+• Give as much information as possible - communicate the risks i.e.
+person suicidal, person threatening harm to self or others. So an
+appropriate response can be determined
+• Your name and phone contact
+• Name, age and relationship of the person you are concerned about
+• Are they breathing or conscious
+• Your location, e.g. street name and number and the name of the
+nearest cross street
+• Don’t hang up until the operator has all the information, they need
+</subcontent>
+ </title>
+ <title item="2">The next step
+ <tips>carers tip 1: Sometimes an early Mental Health Assessment is not possible due to self administered medications, sedation, confusion or injury. At times due to medical emergencies there may be long waits over 8hrs: You are able to request something to eat and drink for you and the person you are supporting.
+ carers tip 2 The mental health team will see your loved one after they are cleared by the medical doctor
+</tips>
+ <subcontent>You can call the NSW mental health line on ${type=1,title=180 0011 511,content=1800011511,typeface=NORMAL,fontcolor=#FF0000} for advice regarding the person you care for 
+locate a support person for yourself 
+You can contact and appropriate support service 
+(HYPERLINK TO SUPPOT SERVICES PAGE 17)while your loved one is being assessed 
+Once in ED, you can ask to speak to a social worker and / or a peer support worker (If available) if you are unsure of the processes. 
+ </subcontent>
+ <dropDownBox title="Triage Assessment">
+ Urgency
+ Initial risk assessment
+ Observation/supervision level
+ Please note ED uses different triage scale to the emergency services.
+ </dropDownBox>
+ 
+<dropDownBox title="Assessment Process">
+A history is taken from patient if possible - as well as relatives,
+friends or accompanying police or ambulance officers.
+<item>Treatment of any physical injuries or underlying medical issues. e.g.
+self harm, overdose</item>
+Consultation with medical doctor who will rule out medical conditions
+which could mirror mental illness symptoms or identify underlying
+physical health issues.
+ </dropDownBox>
+ 
+<dropDownBox title="NON-URGENT Advice">
+If you have questions or non-urgent concerns about the person you
+support please call Mental Health Line on ${type=1,title=1800 011 511,content=1800011511,typeface=NORMAL,fontcolor=#FF0000} for advice or
+information. Available 24hrs 7 days per week
+• Does your loved one have a case worker? If so you can inform them of
+your concerns for your loved one
+•visit your GP providing no-one is in immediate
+medical danger or threat.
+• Would they agree to have an ambulance attend their home, for a
+Mental Health Assessment, without the Police?
+(Only possible if no violence or aggression present)
+• Would they agree to have the Community Mental Health Acute
+Assessment Team attend to assess their Mental Health without any
+emergency services?  Call ${type=1,title=1800 011 511,content=1800011511,typeface=NORMAL,fontcolor=#FF0000}
+ </dropDownBox>
+ </title>
+ <title item="3">Involving yourself
+ <tips >Information should be sought from loved ones family and carers wherever possible. This information can aid in diagnosis, assessment of risk and may influence management and discharge planning.</tips> 
+ <subcontent>• Patients must give permission for a carer being consulted and included in
+healthcare discussions. 
+• If your loved one is over 18 and does not give permission for others to include you in discussions their rights must be respected. 
+• A medical officer can overrule this if he/she reasonably believes that the patient is incapable of making such a decision or it may put the patient or nominated carer at risk of serious harm.
+• That however does not stop you providing healthcare workers with
+information about their condition/behaviours. Such as duration, severity, current medications, behaviour changes and triggers etc
+• A child under 18 cannot exclude their parents. (Mental Health Act 2007 Part 72)
+ </subcontent>
+ </title>
+ <title item="4">Hospital Admission
+  <dropDownBox title="Involuntary Admission" tips="This is a good time for YOU to seek support from social worker/peer work and your support person">
+People are often provided with mental health care under the cover of the Mental
+Health Act 2007 (NSW).
+When a person is suffering a serious mental illness, is a risk to
+themselves or others, and refusing treatment they may be admitted or treated
+as an involuntary patient under the Act.
+The hospital cannot continue to keep them against their will unless at least two
+doctors find that they are a mentally ill person or a mentally disordered person.
+At least one of the doctors must be a psychiatrist.
+If they are found to be a mentally disordered person, they can only be kept in
+hospital for up to 3 working days, excluding weekends and public holidays.
+If they are found to be a mentally ill person, they can be kept in hospital until
+they see the Mental Health Tribunal which will hold an inquiry, usually via
+teleconference, to decide what will happen to them.
+ </dropDownBox>
+ <dropDownBox title="Voluntary Admission" tips="Have a list of questions ready that you would like answered">
+A patient may be admitted to a hospital at their own request or on the advice of a doctor, parent, carer or guardian –this may be at a time when they need some extra support.
+
+Any person over the age of 14 can request voluntary admission. A parent
+or guardian of the person who is under the age of 18 can request voluntary
+admission on their behalf.
+length of stay will depend on a range of factors, including the
+condition, type of treatment needed.
+ </dropDownBox>
+ <dropDownBox title=" Rights of Carers" tips="It is at the voluntary or involuntary patient’s discretion whether or not to choose a carer. However, doctors can nominate a principal care provider or designated carer/s.">
+• All reasonable practicable steps must be taken within 24 hours of a person
+being admitted to notify any designated carer or principal care provider. 
+• When requested, the designated carer, should be provided the details of types and dosages and frequency of medications / treatments.
+
+Reasonably practicable steps must be taken to notify the
+principal care provider and designated carers is when the patient:
+• Is absent from the facility without permission
+• Is discharged from the hospital
+• Is reclassified as a voluntary or involuntary patient
+• Is transferred or a transfer is proposed
+• If an application is made to the tribunal for consent to a surgical operation
+or special medical treatment,
+• If a surgical operation is performed on the patient
+Drop down box – Discharge and planning (carers tip –Ask that a discharge summary be sent to your GP, and make sure you get a copy for yourself.)
+All reasonable and practicable steps must be taken to ensure that the patient,
+any designated carer and/or principle carers are informed with:
+What medication if any has been prescribed, the dosage, frequency, possible side effects and do they have a script?
+• Do they have a few days’ supply or do you have to organise to pick some
+up today?
+• Are there any follow up appointments organised with other services?
+e.g. community mental health, private psychiatrist or psychologist.
+Where are these located? How do you contact them?
+• Following discharge, the Acute Care Team will follow up via phone so ask, do they have a date and time?
+Carers can assist the person they support by reminding them to have their phone with them. 
+If you have any concerns about the person you support  call the Mental Health Line ${type=1,title=1800 011 511,content=1800011511,typeface=NORMAL,fontcolor=#FF0000}
+ </dropDownBox>
+ 
+ 
+ <dropDownBox title="Legal and Advocacy services" >
+${type=3,title=Legal Advice,content=Legal Advice,typeface=BOLD_ITALIC,fontcolor=#000000}
+Legal Aid Commission Wollongong office
+Provides free legal advice - phone ${type=1,title=4228 8299,content=4228 8299,typeface=NORMAL,fontcolor=#FF0000} - ask for civil law
+Illawarra Legal Centre
+Provides free legal advice - phone ${type=1,title=4276 1939,content=4276 1939,typeface=NORMAL,fontcolor=#FF0000}
+${type=3,title=Mental Health Advocacy Service,content=Mental Health Advocacy Service,typeface=BOLD_ITALIC,fontcolor=#000000}
+Provides free legal advice - phone 9745 4277
+Illawarra Advocacy Service ${type=1,title=4229 4999,content=4229 4999,typeface=NORMAL,fontcolor=#FF0000}
+${type=2,title=www.illawarraadvocacy.org.au,content=http://www.illawarraadvocacy.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Designated Carer Forms  (HYPERLINK),content=Designated Carer Forms  (HYPERLINK),typeface=BOLD_ITALIC,fontcolor=#000000}
+${type=2,title=http://www.health.nsw.gov.au/mentalhealth/Documents/Legislation/NH606713a.pdf,content=http://www.health.nsw.gov.au/mentalhealth/Documents/Legislation/NH606713a.pdf,typeface=NORMAL,fontcolor=#1E90FF}
+ </dropDownBox>
+ 
+ 
+<dropDownBox title="Questions I need to ask">
+Ask as many questions as needed, ask the mental health professional, pharmacist and social worker: 
+${type=3,title=Questions about the illness,content=Questions about the illness,typeface=BOLD,fontcolor=#48D1CC}
+• What is the diagnosis?
+• Where can I get more information about the illness?
+• What are the early warning signs for becoming unwell again?
+• What kind of therapy or medication options are available?
+
+${type=3,title=Questions about medication,content=Questions about medication,typeface=BOLD,fontcolor=#48D1CC}
+• What is the name of the medication; what is it supposed to do?
+• Which symptoms should this medication help with?
+• How long will it take to work?
+• What are the likely side effects?
+
+${type=3,title=Questions about discharge,content=Questions about discharge,typeface=BOLD,fontcolor=#48D1CC}
+• What service is my family member/friend being discharged to?
+• Is there a follow-up appointment organised with that service?
+• What are the contact details for the service?
+• A reminder - Is there a copy of a discharge plan that I can have? And can it be
+forwarded to all treating health professionals? e.g. psychiatrist, G.P.,
+psychologist.
+
+(Can these questions be on a NEXT page for each lot of different questions?) 
+</dropDownBox>
+ 
+ </title>
+
+ 
+ 
+ </root>
