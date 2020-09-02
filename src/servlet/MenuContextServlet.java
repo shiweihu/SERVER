@@ -54,6 +54,7 @@ public class MenuContextServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("aaa");
 		response.setCharacterEncoding("UTF-8");
 		Gson gson = new Gson();
 		PrintWriter write = response.getWriter();
