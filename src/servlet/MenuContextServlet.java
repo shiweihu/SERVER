@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-
 import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,6 +17,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import com.google.gson.Gson;
 
 import mode.DropDownBox;
+import mode.TabFive;
 import mode.TabFour;
 import mode.TabOne;
 import mode.TabThree;
@@ -55,7 +53,6 @@ public class MenuContextServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("aaa");
 		response.setCharacterEncoding("UTF-8");
 		Gson gson = new Gson();
 		PrintWriter write = response.getWriter();
@@ -160,6 +157,12 @@ public class MenuContextServlet extends HttpServlet {
         		 list.add(currentObj);
         		 index = element.TITLE;
         		 tabIndex=4;
+        	 }else if(qName.equals("title") && atts.getValue("item").equals("5")) 
+        	 {
+        		 currentObj = new TabFive();
+        		 list.add(currentObj);
+        		 index = element.TITLE;
+        		 tabIndex=5;
         	 }
         	 else if(qName.equals("tips")) 
         	 {
@@ -187,6 +190,13 @@ public class MenuContextServlet extends HttpServlet {
         			 d.setTitle(atts.getValue("title"));
         			 d.setTips(atts.getValue("tips"));
         			 tabfour.addDropDownBox(d);
+        		}else if(tabIndex == 5) 
+        		{
+        			TabFive tabfive = (TabFive)currentObj;
+       			    d = new DropDownBox();
+       			    d.setTitle(atts.getValue("title"));
+       			    d.setTips(atts.getValue("tips"));
+       			    tabfive.addDropDownBox(d);
         		}
         		 
         		 

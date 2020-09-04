@@ -167,8 +167,59 @@ psychologist.
 
 (Can these questions be on a NEXT page for each lot of different questions?) 
 </dropDownBox>
+</title>
+<title item="5">Healthcare Rights and Complaints
+<tips>Healthcare is a Right not a Privileged</tips>
+ <dropDownBox title="Healthcare rights">
+${type=3,title=Access,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to receive health care
+${type=3,title=Safety,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to safe and high-quality care
+${type=3,title=Respect,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to be treated with respect, dignity, and consideration.
+Health care will be provided in a manner that shows courtesy and
+consideration for a person’s culture, religious beliefs, sexual orientation and
+issues arising from a disability
+${type=3,title=Communication,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to be informed about services, treatment, and options in a clear and
+open way.
+Patients have a responsibility to be honest and open in providing information
+${type=3,title=Participation,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to be included in decisions and choices about health care.
+Patients have the right, where circumstances permit, to have a relative or
+other support person with them at all times
+${type=3,title=Privacy,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to privacy and confidentiality regarding personal information
+${type=3,title=Comment,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+The right to comment on care and have concerns addressed
+ </dropDownBox>
  
- </title>
+  <dropDownBox title="Complaints in the Mental Health Setting">
+${type=3,title=Official Visitors: 
+How can they help?,content=,typeface=BOLD_ITALIC,fontcolor=#48D1CC}
+They will listen to your concerns and help you resolve them, or, with your
+permission, act to resolve them on your behalf.
+
+${type=3,title=Who are they?,content=,typeface=BOLD_ITALIC,fontcolor=#48D1CC}
+Patients (consumers), carers, family, friends, staff, and other people with
+an interest in the care and treatment of people with a mental illness.
+
+${type=3,title=How can you contact them?,content=,typeface=BOLD_ITALIC,fontcolor=#48D1CC}
+• Phone: ${type=1,title=1800 208 218,content=1800208218,typeface=NORMAL,fontcolor=#FF0000} Monday to Friday between 9am and 5pm
+Free of charge. Leave a message outside these hours.
+• Ask a staff member to arrange for you to see or speak to an
+Official Visitor. The Official Visitor must be notified of your request
+within two days.
+• Leave a letter in the Official Visitors Box in the inpatient unit
+• Write to: Official Visitors, Locked Bag 5016, Gladesville NSW 1675
+• Visit the website at ${type=2,title=www.officialvisitorsmh.nsw.gov.au,content=www.officialvisitorsmh.nsw.gov.au,typeface=NORMAL,fontcolor=#1E90FF}
+
+You have the right to access mechanisms of complaint and redress if
+you are dissatisfied with the treatment or support provided to the person you care for, you can contact
+The Health Care Complaints Commission on ${type=1,title=02 9219 7444,content=0292197444,typeface=NORMAL,fontcolor=#FF0000}( Hyperlink number)
+ </dropDownBox>
+
+</title>
 
  
  
