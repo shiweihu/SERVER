@@ -15,14 +15,12 @@ import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 import com.google.gson.Gson;
+import com.google.gson.TypeAdapter;
 
+import JDBC.DBManager;
 import mode.DropDownBox;
-import mode.TabFive;
-import mode.TabFour;
-import mode.TabOne;
-import mode.TabThree;
-import mode.TabTwo;
 import mode.menuItem;
+import mode.responsePack;
 
 
 
@@ -54,14 +52,37 @@ public class MenuContextServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setCharacterEncoding("UTF-8");
-		Gson gson = new Gson();
 		PrintWriter write = response.getWriter();
-		for(menuItem item:list ) 
+		String ClientVersion =  request.getParameter("versions");
+		if(ClientVersion == null) 
 		{
-			String json = gson.toJson(item);
-			write.append(json);
-			write.append("------------");
+			write.append("versions parameter do not exsis");
+			return ;
 		}
+		
+		int serverVersion = DBManager.getInstance().getVersion();
+		if(ClientVersion.equals(serverVersion+"")) 
+		{
+			write.append("1");
+			return ;
+		}
+		responsePack rp = new responsePack();
+		rp.setVersion(serverVersion);
+		rp.setList(list);
+		Gson gson = new Gson();
+		String json = gson.toJson(rp);
+		write.append(json);
+		//for(menuItem item:list ) 
+		//{
+		//	String json = gson.toJson(item);
+			//write.append(json);
+			//write.append("------------");
+		//}
+		
+		
+		
+		
+		
 	}
 
 	/**
@@ -131,38 +152,11 @@ public class MenuContextServlet extends HttpServlet {
         public void startElement(String uri, String localName, String qName, Attributes atts) throws SAXException {
         	 System.out.println("userName: " + qName);
         	 content = "";
-        	 if(qName.equals("title") &&  atts.getValue("item").equals("1")) 
+        	 if(qName.equals("title")) 
         	 {
-        		 currentObj = new TabOne();
+        		 currentObj = new menuItem();
         		 list.add(currentObj);
         		 index = element.TITLE;
-        		 tabIndex=1;
-        	 }else if(qName.equals("title") && atts.getValue("item").equals("2")) 
-        	 {
-        		 currentObj = new TabTwo();
-        		 list.add(currentObj);
-        		 index = element.TITLE;
-        		 tabIndex=2;
-        	 }
-        	 else if(qName.equals("title") && atts.getValue("item").equals("3")) 
-        	 {
-        		 currentObj = new TabThree();
-        		 list.add(currentObj);
-        		 index = element.TITLE;
-        		 tabIndex=3;
-        	 }
-        	 else if(qName.equals("title") && atts.getValue("item").equals("4")) 
-        	 {
-        		 currentObj = new TabFour();
-        		 list.add(currentObj);
-        		 index = element.TITLE;
-        		 tabIndex=4;
-        	 }else if(qName.equals("title") && atts.getValue("item").equals("5")) 
-        	 {
-        		 currentObj = new TabFive();
-        		 list.add(currentObj);
-        		 index = element.TITLE;
-        		 tabIndex=5;
         	 }
         	 else if(qName.equals("tips")) 
         	 {
@@ -175,31 +169,10 @@ public class MenuContextServlet extends HttpServlet {
         	 else if(qName.equals("dropDownBox")) 
         	 {
         		 index = element.DROPDOWNBOX1;
-        		 
-        		if(tabIndex == 2) 
-        		{
-        			 TabTwo tabTwo = (TabTwo)currentObj;
-        			 d = new DropDownBox();
-        			 d.setTitle(atts.getValue("title"));
-        			 d.setTips(atts.getValue("tips"));
-        			 tabTwo.addDropDownBox(d);
-        		}else if(tabIndex == 4) 
-        		{
-        			TabFour tabfour = (TabFour)currentObj;
-        			 d = new DropDownBox();
-        			 d.setTitle(atts.getValue("title"));
-        			 d.setTips(atts.getValue("tips"));
-        			 tabfour.addDropDownBox(d);
-        		}else if(tabIndex == 5) 
-        		{
-        			TabFive tabfive = (TabFive)currentObj;
-       			    d = new DropDownBox();
-       			    d.setTitle(atts.getValue("title"));
-       			    d.setTips(atts.getValue("tips"));
-       			    tabfive.addDropDownBox(d);
-        		}
-        		 
-        		 
+    			 d = new DropDownBox();
+    			 d.setTitle(atts.getValue("title"));
+    			 d.setTips(atts.getValue("tips"));
+    			 currentObj.addDropDownBox(d); 
    
         	 }
         	

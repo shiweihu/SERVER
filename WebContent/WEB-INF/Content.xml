@@ -194,7 +194,7 @@ ${type=3,title=Comment,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
 The right to comment on care and have concerns addressed
  </dropDownBox>
  
-  <dropDownBox title="Complaints in the Mental Health Setting">
+ <dropDownBox title="Complaints in the Mental Health Setting">
 ${type=3,title=Official Visitors: 
 How can they help?,content=,typeface=BOLD_ITALIC,fontcolor=#48D1CC}
 They will listen to your concerns and help you resolve them, or, with your
@@ -218,7 +218,186 @@ You have the right to access mechanisms of complaint and redress if
 you are dissatisfied with the treatment or support provided to the person you care for, you can contact
 The Health Care Complaints Commission on ${type=1,title=02 9219 7444,content=0292197444,typeface=NORMAL,fontcolor=#FF0000}( Hyperlink number)
  </dropDownBox>
+</title>
+<title item="6">After Crisis
+<tips>${type=3,title=• Maintain a social life outside work and/or home, however limited it
+may be
+Inform yourself about every aspect of the illness
+• Above all, don’t allow yourself to become consumed by the illness
+• You have your own life to manage,content=,typeface=BOLD_ITALIC,fontcolor=#ADFF2F}</tips>
+<subcontent>Having to care for someone with a mental illness is very stressful.
+Caring can be overwhelming and unpredictable. Taking care of your own
+mental health is just as important as taking care of your physical health.
+Getting some support from a carers group such as Mental Health Carers
+(ARAFMI) Illawarra or other carer services is recommended, as they can provide
+education, support (one on one), carers support groups and programs.
+Carers can find it helpful to talk about their concerns with professional
+counsellors who understand the caring role.
+</subcontent>
+</title>
+<title item="7">Carers Crisis Plan
+<tips> DONT FORGET YOUR OWN SELF CARE DURING A CRISIS</tips>
+<subcontent>• People can still experience a crisis when they have utilised the best
+resources available. It is important to have a written plan in place in case
+of a crisis.
+• Formulate a plan of action before the crisis happens - wherever possible,
+involve the person who has a mental health condition in this plan.
+A good plan will:
+</subcontent>
+<dropDownBox title="">
+1)Identify people willing to help
+</dropDownBox>
+<dropDownBox title="">
+2)List the phone numbers of the mental health providers and the
+mental health crisis team
+</dropDownBox>
+<dropDownBox title="">
+3)Include a list of current medications and their dosages
+</dropDownBox>
+<dropDownBox title="">
+4)List treatments that have been used in the past (e.g., talk
+therapies such as Cognitive Behaviour Therapy, Dialectal
+Behaviour Therapy, medications, peer support, crisis lines, etc.)
+</dropDownBox>
+<dropDownBox title="">
+5)Identify key words or calming techniques that have worked in the Past
+</dropDownBox>
+<dropDownBox title="">
+6)Identify preferred treatment facilities
+</dropDownBox>
+<dropDownBox title="">
+7)Talk with others in the household about how to stay safe during a
+crisis.
+</dropDownBox>
+<dropDownBox>
+Samples of a Crisis Plan and a Carer Plan are available on the
+${type=2,title=ARAFMI website,content=www.arafmiillawarra.org.au/crisis-information ,typeface=NORMAL,fontcolor=#1E90FF}
+</dropDownBox>
+</title>
+<title item ="8">Resources and contact numbers
+<tips></tips>
+<dropDownBox title="Available 24/7">
+${type=3,title=NSW Mental Health Line -,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 011 511,content=1800011511,typeface=NORMAL,fontcolor=#FF0000}
+${type=2,title=http://www.health.nsw.gov.au/mentalhealth/Pages/contact-service.aspx,content=http://www.health.nsw.gov.au/mentalhealth/Pages/contact-service.aspx,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Lifeline Australia –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title= 13 11 14,content= 131114,typeface=NORMAL,fontcolor=#FF0000}
+Anyone experiencing a personal crisis or thinking about suicide
+${type=2,title=https://www.lifeline.org.au,content=https://www.lifeline.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Kids Helpline –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 55 1800,content=1800551800,typeface=NORMAL,fontcolor=#FF0000}
+Staffed by professional counsellors for young people 5 to 25 years
+${type=2,title=https://kidshelpline.com.au,content=https://kidshelpline.com.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=MensLine Australia –,content=,typeface=BOLD_ITALIC,fontcolor=#000000}  ${type=1,title=1300 78 99 78,content=1300789978,typeface=NORMAL,fontcolor=#FF0000}
+For men of any age who would like support
+${type=2,title=https://mensline.org.au/,content=https://mensline.org.au/,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Suicide Call Back Service –,content=,typeface=BOLD_ITALIC,fontcolor=#000000}  ${type=1,title=1300 659 467,content=1300659467,typeface=NORMAL,fontcolor=#FF0000}
+Provides crisis counselling to people at risk of suicide, carers for someone who
+is suicidal and those bereaved by suicide. 
+${type=2,title=https://www.suicidecallbackservice.org.au,content=https://www.suicidecallbackservice.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Beyond Blue –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1300 22 4636,content=1300224636,typeface=NORMAL,fontcolor=#FF0000}
+Staffed by trained Mental Health Professionals
+${type=2,title=https://www.beyondblue.org.au,content=https://www.beyondblue.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Veterans and Veterans’ Families Counselling Service –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 011 046,content=1800011046,typeface=NORMAL,fontcolor=#FF0000}
+Provides supportive, confidential counselling to members of the veteran
+and ex-service community who need support or are in crisis.
+${type=2,title=http://www.vvcs.gov.au,content=http://www.vvcs.gov.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=The WayAhead Directory,content=,typeface=BOLD_ITALIC,fontcolor=#000000} is a comprehensive online database used to
+find local mental health services using your postcode.
+The WayAhead Directory is free to access for people living with a mental
+health condition, carers and service providers.
+${type=2,title=https://directory.wayahead.org.au,content=https://directory.wayahead.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=“My Health Record”,content=,typeface=BOLD_ITALIC,fontcolor=#000000} If a person with Mental Health problems is happy
+to have their medical information recorded on this system the doctors,
+specialists and hospital staff could access and see the history of the person
+including medications etc when there is an emergency situation
+${type=2,title=https://myhealthrecord.gov.au,content=https://myhealthrecord.gov.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=“Carer Gateway”,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+Carers can get a wide range of help – form counselling and peer support groups and more 
+Phone ${type=1,title=1800 422 737,content=1800422737,typeface=NORMAL,fontcolor=#FF0000}
+${type=2,title=https://www.carergateway.gov.au ,content=https://www.carergateway.gov.au,typeface=NORMAL,fontcolor=#1E90FF}
+</dropDownBox>
+<dropDownBox title="Restricted hours">
+${type=3,title=Mental health Carers National Helpline –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1300 554 660,content=1300554660,typeface=NORMAL,fontcolor=#FF0000}
+${type=3,title=One Door Mental Health – ,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 843 539,content=1800843539,typeface=NORMAL,fontcolor=#FF0000}
+${type=2,title=http://www.onedoor.org.au,content=http://www.onedoor.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Mental Health Carers (ARAFMI) Illawarra – ,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=42833 499,content=42833499,typeface=NORMAL,fontcolor=#FF0000}/${type=1,title= 42833 993,content=42833993,typeface=NORMAL,fontcolor=#FF0000}
+9:00am to 4.30pm
+${type=2,title=http://www.arafmiillawarra.org.au,content=http://www.arafmiillawarra.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Carers NSW –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 242 636,content=1800242636,typeface=NORMAL,fontcolor=#FF0000}
+9am to 5pm Mon – Fri
+${type=2,title=https://www.carersnsw.org.au,content=https://www.carersnsw.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Stride -,content=,typeface=BOLD_ITALIC,fontcolor=#000000} Wollongong: ${type=1,title=42297254,content=42297254,typeface=NORMAL,fontcolor=#FF0000} Nowra ${type=1,title=42221574,content=42221574,typeface=NORMAL,fontcolor=#FF0000}
+${type=3,title=Sane Helpline –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=1800 18 7263,content=1800187263,typeface=NORMAL,fontcolor=#FF0000}
+10am to 10pm
+${type=2,title=https://www.sane.org/get-help,content=https://www.sane.org/get-help,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Online Lifeline Crisis Support Chat 7pm – Midnight 7 Days,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+${type=2,title=https://www.lifeline.org.au/get-help/online-services/crisis-chat,content=https://www.lifeline.org.au/get-help/online-services/crisis-chat,typeface=NORMAL,fontcolor=#1E90FF}
+${type=3,title=Headspace Wollongong –,content=,typeface=BOLD_ITALIC,fontcolor=#000000} ${type=1,title=4220 7660 ,content=42207660,typeface=NORMAL,fontcolor=#FF0000}
+8.45am -5.00pm
+${type=2,title=www.headspace.org.au,content=www.headspace.org.au,typeface=NORMAL,fontcolor=#1E90FF}
+</dropDownBox>
+</title>
+<title item="9">Financial and Legal Resources
+<dropDownBox title="Carer Payments">
+Carer Payment is asset tested and provided to support carers in
+maintaining their caring role and recognises the difficulties for carers
+to maintaining paid employment. Carers may still be eligible for Carer
+Payment if they have part-time work or are studying.
+</dropDownBox>
+<dropDownBox title="Carer Allowance">
+Carer Allowance is not asset tested and can be paid to eligible carers who
+are employed. The Carer Allowance is paid on top of the Carer Payment
+or Aged Pension for eligible carers. Families with a household income of $250,00
+or more per year are not eligible for carer allowance.
+</dropDownBox>
+<dropDownBox title="Centrelink Social Workers">
+Centrelink Social Workers are located in service centres and on the
+phone to help people who are experiencing a crisis, have no support or
+are unsure how to access the right assistance.
+People of all ages can talk to social workers about things such as
+domestic and family violence, homelessness, relationship breakdown,
+loss and bereavement, mental health and addictions.
+They can help during difficult times by providing confidential counselling,
+support and information.
+</dropDownBox>
+<dropDownBox title="Legal and financial advice">
+Legal Aid Commision
 
+Illawarra Legal Centre
+
+Mental Health Advocacy service 
+</dropDownBox>
+</title>
+<title item = "10">Private Health Insurance
+<tips> Be aware that only voluntary patients can access private mental health facilities</tips>
+<subcontent>
+Since 1 April 2018, health insurers have been providing greater access
+to mental health services by allowing people to upgrade their hospital
+cover without serving the usual two month waiting period for in hospital
+psychiatric treatment. Policyholders are able to use this
+exemption from the usual waiting period on a once-off basis.
+Independent, commission free advice on private health insurance is
+available on: ${type=2,title=https://privatehealth.gov.au,content=https://privatehealth.gov.au,typeface=NORMAL,fontcolor=#1E90FF}
+
+If you have private health cover, it is recommended that you contact you
+private health insurer to find out if you are covered for
+psychiatric services.
+
+If this cover is important to you, ask you health insurer:
+• Does the policy cover ${type=3,title=in-patient psychiatric care,content=,typeface=BOLD_ITALIC,fontcolor=#000000} in a public and
+private hospital? Is there an annual maximum number of admissions
+or days covered in hospital? And does it cover ${type=3,title=re-admission,content=,typeface=BOLD_ITALIC,fontcolor=#000000} to hospital
+within days of a previous hospital stay?
+• Does it cover ${type=3,title=day programs,content=,typeface=BOLD_ITALIC,fontcolor=#000000} in private hospital? Is there a limitation
+on the number of visits per year and on how many hours per visit are
+covered?
+• Is there cover for specific treatments? e.g. ${type=3,title=electroconvulsive therapy,content=,typeface=BOLD_ITALIC,fontcolor=#000000}
+• Does it cover ${type=3,title=all public and private hospitals,content=,typeface=BOLD_ITALIC,fontcolor=#000000} or only a selection?
+
+Different private hospitals specialise in the treatment of different
+mental health conditions, and you want to be able to access the best
+one for your needs.
+Currently South Coast Private Hospital is the only private mental health facility in
+Illawarra and Shoalhaven region.
+</subcontent>
 </title>
 
  

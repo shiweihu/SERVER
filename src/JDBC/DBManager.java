@@ -1,6 +1,7 @@
 package JDBC;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -26,7 +27,7 @@ public class DBManager {
 			
 			String dbUri = "jdbc:mysql://localhost:3306/healthcare?serverTimezone=UTC";
 			String dbuser = "serveUser";
-			String dbPass = "123456";
+			String dbPass = "Server_Pass_123";
 			conn = java.sql.DriverManager.getConnection(dbUri, dbuser, dbPass);
 			createTables();
 		} catch (ClassNotFoundException e) {
@@ -40,7 +41,7 @@ public class DBManager {
 	
 	private void createTables() 
 	{
-		Statement stmp;
+		Statement stmp = null;
 		try {
 			stmp = conn.createStatement();
 			String sql = "create table userInfo("
@@ -49,22 +50,89 @@ public class DBManager {
 					+ "postcode varchar(20) not null"
 					+ ")";
 			stmp.execute(sql);
-			stmp.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+            System.out.println("userInfo table already exsis");
 			
+		}finally
+		{
+			if(stmp!=null) 
+			{
+				try {
+					stmp.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
+		
+		try {
+			stmp = conn.createStatement();
+			String sql = "create table version_tab("
+					+ "version decimal(10,0) not null"
+					+ ")";
+			stmp.execute(sql);
+			sql = "insert into version_tab values(1)";
+			stmp.execute(sql);
+		} catch (SQLException e) {
+			System.out.println("version_tab table already exsis");
+		}finally
+		{
+			if(stmp!=null) 
+			{
+				try {
+					stmp.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+		
 		
 		
 	}
 	
+	public int getVersion() 
+	{
+		String sql = "select version from version_tab";
+		Statement stmp = null;
+		int version = 0;
+		try {
+			stmp = conn.createStatement();
+			ResultSet resultSet = stmp.executeQuery(sql);
+			while(resultSet.next()) 
+			{
+				version =  resultSet.getInt(1);
+				return version;
+			}
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally 
+		 {
+			if(stmp!=null) 
+			{
+				try {
+					stmp.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		 }
+		return version;
+	}
 	public boolean storeUserInfo(String gender,String age,String postcode) 
 	{
 		String sql = "insert into userInfo(gender,age,postcode) values("+gender+","+age+","+postcode+")";
+		Statement stmp = null;
 		 try {
-			 Statement stmp =  conn.createStatement();
+			 stmp =  conn.createStatement();
 			 int resultCount = stmp.executeUpdate(sql);
-			  stmp.close();
+			  
 			  if(resultCount ==1) 
 			  {
 				  return true;
@@ -72,7 +140,18 @@ public class DBManager {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}finally 
+		 {
+			if(stmp!=null) 
+			{
+				try {
+					stmp.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		 }
 		 return false;
 	}
 	

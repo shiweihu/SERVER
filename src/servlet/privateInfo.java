@@ -34,6 +34,12 @@ public class privateInfo extends HttpServlet {
 		String age = request.getParameter("Age");
 		String postcode = request.getParameter("postcode");
 		
+		if(gender.isEmpty() || age.isEmpty() || postcode.isEmpty()) 
+		{
+			response.getWriter().append("0");
+			return ;
+		}
+		
 		if(DBManager.getInstance().storeUserInfo(gender, age, postcode)) 
 		{
 			response.getWriter().append("1");

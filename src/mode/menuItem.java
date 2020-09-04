@@ -1,8 +1,17 @@
 package mode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class menuItem {
   private String  title ="";
   private String tips="";
+  private List<DropDownBox> list = new ArrayList<DropDownBox>();
+  public void addDropDownBox(DropDownBox d) 
+  {
+	  list.add(d);
+  }
+
   
 public String getTips() {
 	return tips;
